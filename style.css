@@ -108,4 +108,16 @@ body.h1 {
   align-items: baseline;
 }
 
+section h4 {
+  margin: 0;
+}
+
+section h3 {
+  margin:0;
+}
+
+section {
+  margin: 1em;
+}
+
 
