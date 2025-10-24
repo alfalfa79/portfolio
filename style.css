@@ -140,6 +140,27 @@ label.color-scheme {
   font-family: inherit;
 }
 
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+}
 
+.stats-grid dt {
+  grid-row: 1;
+  font-weight: bold;
+  text-align: center;
+}
+
+.stats-grid dd {
+  grid-row: 2;
+  text-align: center;
+}
+
+.projects img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
 
 
