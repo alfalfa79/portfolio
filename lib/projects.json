@@ -2,73 +2,73 @@
 	{
 		"title": "Price Variances Across Food Categories",
         "year": "2025",
-		"image": "../images/Screenshot 2025-10-14 144157.png",
+		"image": "/images/Screenshot 2025-10-14 144157.png",
 		"description": "Tableau box plot visualization depicting the degree of price variability changing amongst perishiable vs non-perishable foods."
 	},
 	{
 		"title": "Abortion Rates and 2016 Presidential Election Results",
         "year": "2025",
-		"image": "../images/Screenshot 2025-10-21 161147.png",
+		"image": "/images/Screenshot 2025-10-21 161147.png",
 		"description": "Scatter plot visualization of abortion numbers per state plotted along state political leaning during 2016 presidential"
 	},
     {
 		"title": "TLC Marketing Poster",
         "year": "2025",
-		"image": "../images/Screenshot 2025-10-23 235200.png",
+		"image": "/images/Screenshot 2025-10-23 235200.png",
 		"description": "Experiential Learning poster made for UCSD's Teaching and Learning Commons"
 	},
     {
 		"title": "i4X CPM InspectGPT Final Poster",
         "year": "2025",
-		"image": "../images/Screenshot 2025-10-23 224322.png",
+		"image": "/images/Screenshot 2025-10-23 224322.png",
 		"description": "Overview of design and ideation process of InspectGPT, an AI-chatbot that organizes inspection data for inspector accessibility."
 	},
 	{
 		"title": "LoL Statistical Analysis",
         "year": "2025",
-		"image": "../images/Screenshot 2025-06-11 153905.png",
+		"image": "/images/Screenshot 2025-06-11 153905.png",
 		"description": "DSC 80 final project focused on analyzing League of Legends gameplay statistics."
 	},
 	{
 		"title": "i4X Summary Stats",
         "year": "2025",
-		"image": "../images/Screenshot 2025-04-01 121139.png",
+		"image": "/images/Screenshot 2025-04-01 121139.png",
 		"description": "Summary stats collected in preparation of implementing AI-chatbot"
 	},
 	{
 		"title": "MGT 160 Pilot Study",
         "year": "2025",
-		"image": "../images/Screenshot 2025-10-23 231711.png",
+		"image": "/images/Screenshot 2025-10-23 231711.png",
 		"description": "Pilot project focused on behavioral outcomes of health incentives in food."
     },
 	{
 		"title": "MGT 164 Final Project",
         "year": "2025",
-		"image": "../images/Screenshot 2025-10-23 231803.png",
+		"image": "/images/Screenshot 2025-10-23 231803.png",
 		"description": "Organization and leadership analysis of UCSD Speech and Debate."
     },
 	{
 		"title": "KMP Case Study: Kinetic Classroom",
         "year": "2024",
-		"image": "../images/Screenshot 2025-10-23 224501.png",
+		"image": "/images/Screenshot 2025-10-23 224501.png",
 		"description": "Case study presentation for Filipino Googler Network's Kapwa Mentorship Program."
     },
 	{
 		"title": "PCC 33: Pamana Sayo",
         "year": "2024",
-		"image": "../images/Screenshot 2025-10-23 232822.png",
+		"image": "/images/Screenshot 2025-10-23 232822.png",
 		"description": "Script written for Kaibigang Pilipino's 33rd annual cultural production."
     },
 	{
 		"title": "DSC 20 Final Project",
         "year": "2024",
-		"image": "../images/Screenshot 2025-10-23 232450.png",
+		"image": "/images/Screenshot 2025-10-23 232450.png",
 		"description": "Final project focused on image classification and KNN classifiers."
 	},
 	{
 		"title": "AP Research Final Paper",
         "year": "2022",
-		"image": "../images/Screenshot 2025-10-23 234742.png",
+		"image": "/images/Screenshot 2025-10-23 234742.png",
 		"description": "AP Research paper on codeswitching among Black women, earned a 4."
 	}
 ]
