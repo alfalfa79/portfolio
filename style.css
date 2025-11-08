@@ -144,16 +144,20 @@ label.color-scheme {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 1rem;
+  text-align: center;
 }
 
 .stats-grid dt {
   grid-row: 1;
-  font-weight: bold;
+  text-transform: uppercase;
   text-align: center;
+  font-weight: 700;
 }
 
 .stats-grid dd {
+  font-size: 1.25rem;
   grid-row: 2;
+  margin: 0;
   text-align: center;
 }
 
@@ -238,3 +242,58 @@ ul.legend li.category.selected .swatch {
   background-color: oklch(60% 45% 0); /* highlight color */
 }
 
+.gridlines line {
+  stroke: #ccc;
+  stroke-opacity: 0.5; 
+  shape-rendering: crispEdges;
+}
+
+.gridlines path {
+  stroke: #ccc;        
+  stroke-opacity: 0.5; 
+}
+
+.stats.dl.info {
+  grid-template-columns: max-content 1fr; 
+  column-gap: 1em;   
+  margin: 0;          
+  padding: 0;        
+}
+
+.tooltip {
+  position: fixed;
+  top: 1em;
+  left: 1em;
+}
+
+circle {
+  transition: 200ms;
+  transform-origin: center;
+  transform-box: fill-box;
+}
+
+circle:hover {
+  transform: scale(1.5);
+}
+
+@keyframes marching-ants {
+  to {
+    stroke-dashoffset: -8; /* 5 + 3 */
+  }
+}
+
+.selection {
+  fill-opacity: 0.1;
+  stroke: black;
+  stroke-opacity: 0.7;
+  stroke-dasharray: 5 3;
+  animation: marching-ants 2s linear infinite;
+}
+
+circle.selected {
+  fill: #ff6b6b;
+}
+
+.overlay {
+  pointer-events: all; /* brush works */
+}
